@@ -1,0 +1,38 @@
+body {
+	font-size: 24px;
+	padding-top: 20px;
+}
+
+form {
+	margin: 10px 20px 20px 10px;
+	background: #ccc;
+}
+
+.formItem {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	padding-left: 30px;
+	background: #eee; 
+	height: 37px;
+}
+
+.encryptResult, .decryptResult  {
+	background: #fff;
+	width: 300px;
+	border: 1px solid grey;
+}
+
+input {
+	width: 300px;
+}
+
+button {
+	font-size: 16px;
+	min-width: 90px;
+	border: 2px solid grey;
+}
+
+.red {
+	color: #cc6a74;
+}
